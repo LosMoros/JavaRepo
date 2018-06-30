@@ -19,7 +19,7 @@ public class FizzBuzzTest {
 	public void tearDown() throws Exception {
 	}
 
-	
+	//test number is divisible by 3
 	@Test
 	public final void testMyFizzBuzz1Case1() {
 
@@ -27,6 +27,7 @@ public class FizzBuzzTest {
 		assertEquals(testObject.myFizzBuzz1(3), "Fizz");
 	}
 
+	//test number is divisible by 5
 	@Test
 	public final void testMyFizzBuzz1Case2() {
 
@@ -34,6 +35,7 @@ public class FizzBuzzTest {
 		assertEquals(testObject.myFizzBuzz1(5), "Buzz");
 	}
 
+	//test number is divisible by 3 and 5
 	@Test
 	public final void testMyFizzBuzz1Case4() {
 
@@ -41,6 +43,7 @@ public class FizzBuzzTest {
 		assertEquals(testObject.myFizzBuzz1(15), "FizzBuzz");
 	}
 
+	//test minus number, border test
 	@Test
 	public final void testMyFizzBuzz1Case5() {
 
@@ -48,6 +51,7 @@ public class FizzBuzzTest {
 		assertEquals(testObject.myFizzBuzz1(-1), "-1");
 	}
 
+	//test number 0, exception test
 	@Test
 	public final void testMyFizzBuzz1Case6() {
 
